@@ -1,0 +1,212 @@
+[
+  {
+    "model": "knowledge.topic",
+    "pk": 1,
+    "fields": {
+      "slug": "children_benefit",
+      "title": "Bolalar nafaqasi",
+      "emoji": "💰",
+      "order": 1,
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.topic",
+    "pk": 2,
+    "fields": {
+      "slug": "social_aid",
+      "title": "Moddiy yordam",
+      "emoji": "🏠",
+      "order": 2,
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.topic",
+    "pk": 3,
+    "fields": {
+      "slug": "passport",
+      "title": "Pasport olish/almashtirish",
+      "emoji": "🪪",
+      "order": 3,
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.topic",
+    "pk": 4,
+    "fields": {
+      "slug": "school",
+      "title": "Maktabga qabul",
+      "emoji": "🏫",
+      "order": 4,
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.topic",
+    "pk": 5,
+    "fields": {
+      "slug": "kindergarten",
+      "title": "Bog'chaga navbat",
+      "emoji": "🧒",
+      "order": 5,
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.topic",
+    "pk": 6,
+    "fields": {
+      "slug": "marriage",
+      "title": "Nikoh hujjatlari",
+      "emoji": "💍",
+      "order": 6,
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.topic",
+    "pk": 7,
+    "fields": {
+      "slug": "fines",
+      "title": "Jarimalar",
+      "emoji": "🚔",
+      "order": 7,
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.topic",
+    "pk": 8,
+    "fields": {
+      "slug": "registration",
+      "title": "Doimiy ro'yxat",
+      "emoji": "📋",
+      "order": 8,
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.topic",
+    "pk": 9,
+    "fields": {
+      "slug": "subsidy",
+      "title": "Subsidiyalar",
+      "emoji": "💡",
+      "order": 9,
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.topic",
+    "pk": 10,
+    "fields": {
+      "slug": "gov_center",
+      "title": "Davlat xizmatlari markazi",
+      "emoji": "🏢",
+      "order": 10,
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.faq",
+    "pk": 1,
+    "fields": {
+      "topic": 1,
+      "question": "Bolalar nafaqasini qanday olaman?",
+      "answer": "Do'stlik tumanida bolalar nafaqasini olish uchun:\n\n1️⃣ <b>Kimlar olishi mumkin?</b>\n   - Muhtoj oilalardagi 0-14 yoshgacha bolalar uchun\n   - Oila daromadi belgilangan miqdordan past bo'lsa\n\n2️⃣ <b>Kerakli hujjatlar:</b>\n   ✅ Ota-ona pasporti (nusxasi bilan)\n   ✅ Bolaning tug'ilganlik guvohnomasi\n   ✅ Oila tarkibi ma'lumotnomai (mahalladan)\n   ✅ Daromad to'g'risida ma'lumotnoma\n\n3️⃣ <b>Qayerga borish kerak?</b>\n   🏢 Do'stlik tumani Ijtimoiy xizmatlar markazi\n   yoki\n   💻 my.gov.uz saytida onlayn ariza topshirish\n\n4️⃣ <b>Ko'rib chiqish muddati:</b>\n   📅 15 ish kunigacha\n\n💡 Maslahat: my.gov.uz da ariza bersangiz, hujjatlarni olib yugurishning hojati yo'q!",
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.faq",
+    "pk": 2,
+    "fields": {
+      "topic": 2,
+      "question": "Moddiy yordam olish tartibi qanday?",
+      "answer": "Moddiy yordam (ijtimoiy nafaqa) olish uchun:\n\n1️⃣ <b>Kimlar olishi mumkin?</b>\n   - Kam ta'minlangan oilalar\n   - Nogiron shaxslar\n   - Ko'p bola ko'rgan onalar\n   - Pensionerlar (qo'shimcha yordam)\n\n2️⃣ <b>Kerakli hujjatlar:</b>\n   ✅ Pasport\n   ✅ Oila tarkibi ma'lumotnomasi (mahalladan)\n   ✅ Ish haqqi yoki pensiya to'g'risida ma'lumotnoma\n   ✅ Uy-joy hujjati\n\n3️⃣ <b>Qayerga borish kerak?</b>\n   🏢 Do'stlik tumani Ijtimoiy xizmatlar markazi\n   📞 Tuman hokimligi qabulxonasi\n\n4️⃣ <b>Muhim!</b>\n   Mahallay fuqarolar yig'iniga murojaat qiling — ular yordam beradi.",
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.faq",
+    "pk": 3,
+    "fields": {
+      "topic": 3,
+      "question": "Pasportni almashtirish uchun nima kerak?",
+      "answer": "Pasport almashtirish yoki birinchi marta olish:\n\n1️⃣ <b>Qachon almashtirish kerak?</b>\n   - 16 va 21 yoshda majburiy\n   - Eskirgan yoki yo'qolgan bo'lsa\n\n2️⃣ <b>Kerakli hujjatlar:</b>\n   ✅ Eski pasport (agar bo'lsa)\n   ✅ Tug'ilganlik guvohnomasi\n   ✅ 3x4 fotosurat (2 dona)\n   ✅ Davlat boji to'lovi kvitansiyasi\n   ✅ Ro'yxatga olish ma'lumotnomasi\n\n3️⃣ <b>Davlat boji narxi:</b>\n   💰 Oddiy (30 kun): ~50 000 so'm\n   ⚡ Tezkor (3-7 kun): ~100 000 so'm\n\n4️⃣ <b>Qayerga borish kerak?</b>\n   🏢 Do'stlik tumani IIB (Ichki ishlar bo'limi)\n   💻 Yoki id.egov.uz orqali onlayn\n\n💡 Maslahat: Hujjatlarni to'liq olib boring — qaytib kelmaslik uchun!",
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.faq",
+    "pk": 4,
+    "fields": {
+      "topic": 4,
+      "question": "Maktabga hujjat topshirish tartibi qanday?",
+      "answer": "Farzandingizni maktabga qabul qildirish uchun:\n\n1️⃣ <b>Qabul yoshi:</b>\n   - 6-7 yoshga to'lgan bolalar\n   - Har yil aprel-iyun oylarida qabul boshlanadi\n\n2️⃣ <b>Kerakli hujjatlar:</b>\n   ✅ Tug'ilganlik guvohnomasi (nusxasi bilan)\n   ✅ Shahar/tuman ro'yxatidan o'tganlik ma'lumotnomasi\n   ✅ Ota-ona pasporti nusxasi\n   ✅ Tibbiy guvohnoma (026/u forma)\n   ✅ Fotosurat 3x4 (2 dona)\n\n3️⃣ <b>Qayerga borish kerak?</b>\n   🏫 Yashash manzilingizga yaqin maktab\n   yoki\n   💻 emaktab.uz saytida onlayn ro'yxatdan o'tish\n\n4️⃣ <b>Muhim!</b>\n   Aprel oyida ro'yxatdan o'tmagan bo'lsangiz — avgust-sentabrda ham qabul qilinadi.",
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.faq",
+    "pk": 5,
+    "fields": {
+      "topic": 5,
+      "question": "Bog'chaga navbatga qanday qo'yiladi?",
+      "answer": "Farzandingizni bog'chaga qo'yish uchun:\n\n1️⃣ <b>Navbat qanday ishlaydi?</b>\n   - Navbat tizimi mavjud — erta ro'yxatdan o'tgan ustunlik qiladi\n   - Imtiyozli toifalar (ko'p bolali, nogironli va h.k.) birinchi o'tadi\n\n2️⃣ <b>Kerakli hujjatlar:</b>\n   ✅ Tug'ilganlik guvohnomasi\n   ✅ Ota-ona pasporti\n   ✅ Tibbiy ko'rik varaqasi\n   ✅ Ro'yxat ma'lumotnomasi (mahalladan)\n\n3️⃣ <b>Qayerga borish kerak?</b>\n   🧒 Do'stlik tumani Xalq ta'limi bo'limi\n   yoki\n   💻 maktabgacha.uz saytida onlayn ariza\n\n4️⃣ <b>Muhim!</b>\n   3 yoshdan ariza topshiring — navbat ko'p bo'lishi mumkin.",
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.faq",
+    "pk": 6,
+    "fields": {
+      "topic": 6,
+      "question": "Nikohni ro'yxatdan o'tkazish uchun hujjatlar?",
+      "answer": "Nikoh ro'yxatdan o'tkazish tartibi:\n\n1️⃣ <b>Kerakli hujjatlar (ikkalasi uchun ham):</b>\n   ✅ Pasport\n   ✅ Tug'ilganlik guvohnomasi\n   ✅ Avvalgi nikoh tugatilganligi (agar bo'lsa)\n   ✅ Davlat boji to'lovi — taxminan 30 000 so'm\n   ✅ 3x4 fotosurat (har biridan 2 dona)\n\n2️⃣ <b>Yosh talabi:</b>\n   - Ayollar: 17 yoshdan\n   - Erkaklar: 18 yoshdan\n\n3️⃣ <b>Qayerga borish kerak?</b>\n   🏢 Do'stlik tumani FUAV (Fuqarolik holati aktlari)\n   Tuman markazida joylashgan\n\n4️⃣ <b>Kutish muddati:</b>\n   📅 Ariza topshirilgandan keyin 1 oy o'tib nikoh o'qiladi\n\n💡 Maslahat: Hujjatlarni bir kun oldin tekshirib boring!",
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.faq",
+    "pk": 7,
+    "fields": {
+      "topic": 7,
+      "question": "Jarimani qanday tekshirish mumkin?",
+      "answer": "Jarimani tekshirish va to'lash:\n\n1️⃣ <b>Onlayn tekshirish (eng oson yo'l):</b>\n   💻 my.gov.uz → \"Jarimalar\" bo'limi\n   📱 YoQ Jarimasiz ilovasi orqali\n   💻 jarima.uz saytida\n\n2️⃣ <b>Qanday ma'lumot kerak?</b>\n   - Haydovchilik guvohnomasi raqami\n   - Avtomobil davlat raqami\n   yoki\n   - Pasport ma'lumotlari\n\n3️⃣ <b>Jarima to'lash usullari:</b>\n   💳 Karta orqali onlayn\n   🏦 Bank orqali\n   📱 PAYME, CLICK ilovalarida\n\n4️⃣ <b>Muhim!</b>\n   ⚠️ Jarima muddatida to'lanmasa — ikki barobar oshadi!\n   ✅ 30 kun ichida to'lasangiz — 50% chegirma olasiz",
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.faq",
+    "pk": 8,
+    "fields": {
+      "topic": 8,
+      "question": "Doimiy ro'yxatga turish tartibi qanday?",
+      "answer": "Yashash joyida doimiy ro'yxatga turish:\n\n1️⃣ <b>Kerakli hujjatlar:</b>\n   ✅ Pasport\n   ✅ Uy egaligi hujjati (yoki uy egasining roziligi)\n   ✅ Ariza (joyida yoziladi)\n\n2️⃣ <b>Ijara uyda yashayotganlar uchun:</b>\n   ✅ Ijara shartnomasi\n   ✅ Uy egasining pasporti va roziligi\n   ✅ O'zingizning pasportingiz\n\n3️⃣ <b>Qayerga borish kerak?</b>\n   🏢 Do'stlik tumani IIB (Ichki ishlar bo'limi)\n   yoki\n   🏘️ Mahalla fuqarolar yig'ini\n\n4️⃣ <b>Muddat:</b>\n   📅 7 ish kuni ichida ko'rib chiqiladi\n\n💡 Agar yangi uyga ko'chib borsangiz — 10 kun ichida ro'yxatdan o'tish majburiy!",
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.faq",
+    "pk": 9,
+    "fields": {
+      "topic": 9,
+      "question": "Subsidiyalarni qanday olish mumkin?",
+      "answer": "Kommunal xizmatlar subsidiyasi (gaz, suv, elektr) olish:\n\n1️⃣ <b>Kimlar olishi mumkin?</b>\n   - Kam ta'minlangan oilalar\n   - Kommunal xarajatlar daromadning 15% dan ko'p bo'lgan oilalar\n\n2️⃣ <b>Kerakli hujjatlar:</b>\n   ✅ Pasport\n   ✅ Ijtimoiy raqam (PINFL)\n   ✅ Oila tarkibi ma'lumotnomasi\n   ✅ Daromad to'g'risida ma'lumotnoma\n   ✅ Kommunal to'lovlar kvitansiyalari (oxirgi 3 oy)\n\n3️⃣ <b>Qayerga borish kerak?</b>\n   🏢 Do'stlik tumani Ijtimoiy xizmatlar markazi\n   💻 my.gov.uz orqali onlayn ariza\n\n4️⃣ <b>Ko'rib chiqish muddati:</b>\n   📅 15 ish kunigacha\n\n💡 Subsidiya olgan oila har 6 oyda qayta tekshiriladi.",
+      "is_active": true
+    }
+  },
+  {
+    "model": "knowledge.faq",
+    "pk": 10,
+    "fields": {
+      "topic": 10,
+      "question": "Davlat xizmatlari markazi qayerda joylashgan?",
+      "answer": "Do'stlik tumani Davlat xizmatlari markazi:\n\n🏢 <b>Manzil:</b>\n   Do'stlik tumani, markaziy ko'cha\n   (Tuman hokimligi yonida)\n\n🕐 <b>Ish vaqti:</b>\n   Dushanba – Juma: 9:00 – 18:00\n   Shanba: 9:00 – 13:00\n   Yakshanba: Dam olish kuni\n\n📞 <b>Telefon:</b>\n   Tuman axborot xizmatiga murojaat qiling\n\n🌐 <b>Onlayn xizmatlar:</b>\n   💻 my.gov.uz — barcha davlat xizmatlari\n   💻 id.egov.uz — pasport va ID karta\n   💻 emaktab.uz — ta'lim xizmatlari\n\n💡 <b>Maslahat:</b>\n   Soat 10:00–12:00 oralig'i — navbat kamroq bo'ladi!",
+      "is_active": true
+    }
+  }
+]
